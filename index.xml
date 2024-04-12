@@ -5,61 +5,42 @@
     <link>/</link>
     <description>Recent content on workspacer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>changelog</title>
       <link>/changelog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/changelog/</guid>
-      <description>v0.9.10 download installer   switched to GitHub Actions! (thanks sitiom!) improved font configuration for menu bar (thanks N1x0!) updated to .NET 5 (thanks sitiom!) fixed bug where dangling system tray icon remains after exit (thanks OldKros!) new logo! (thanks BeeryShklar!) improved gap calculations (thanks MSylvia!) added extra configurables for TitleWidget (thanks josteink!) fixed an incorrectly duplicated default keybind (thanks Nicholas Balzer!) added a battery widget (thanks Nicholas Balzer!) documentation updates minor tweaks and improvements  Thanks to: sitiom, josteink, haoxiangliew, BeeryShklar, N1x0, MSylvia, alex-griffiths, OldKros, and wkpalan for the contributions!</description>
+      <description>v0.9.11 download installer Workspacer has transitioned to a community project under the workspacer organisation - a big thanks to @rickbutton and @josteink for supporting and facilitating this. We are now actively accepting pull requests.&#xA;Features/Additions:&#xA;@dalyIsaac (Isaac Daly) Added a beta release branch PR #227 Added gaps plugin PR #193 Allows IWorkspace instances to be renamed PR #190 Fixed ActionMenu location on non-primary monitors PR #184 Fixed the ability to restart with a message PR #191 Fixed wrong workspace for window after restarting PR #183 Handles empty titles for short titles PR #218 Ignores Snip &amp;amp; Sketch PR #189 Ignores Windows 11 start and search PR #221 Layout engines now ignore minimized windows PR #197 Prevents System.</description>
     </item>
-    
     <item>
       <title>configuring workspacer</title>
       <link>/config/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/config/</guid>
-      <description>Workspacer is configured with the C# programming language. The expressiveness of C# allows you to be hyper-specific in terms of describing your desired behavior. This configuration documentation assumes that you have already created the example config in the correct folder, if you haven&amp;rsquo;t, check the quick-start guide.
-I don&amp;rsquo;t know C#, or how to code, should I use workspacer? Workspacer is intended to be on the extreme end of the power user spectrum.</description>
+      <description>Workspacer is configured with the C# programming language. The expressiveness of C# allows you to be hyper-specific in terms of describing your desired behavior. This configuration documentation assumes that you have already created the example config in the correct folder, if you haven&amp;rsquo;t, check the quick-start guide.&#xA;I don&amp;rsquo;t know C#, or how to code, should I use workspacer? Workspacer is intended to be on the extreme end of the power user spectrum.</description>
     </item>
-    
     <item>
       <title>key bindings</title>
       <link>/keybindings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/keybindings/</guid>
-      <description>the default keybindings are:
-   keybind description     alt-shift-e toggle enabled/disabled   alt-shift-c close focused window   alt-space next layout engine   alt-shift-space previous layout engine   alt-n reset layout   alt-j focus next window   alt-k focus previous window   alt-m focus primary window   alt-enter swap focus and primary window   alt-shift-j swap focus and next window   alt-shift-k swap focus and previous window   alt-h shrink primary area   alt-l expand primary area   alt-comma increment number of primary windows   alt-period decrement number of primary windows   alt-t toggle tiling for focused window   alt-p open action menu   alt-shift-q quit workspacer   alt-q restart workspacer   alt-left switch to left workspace   alt-right switch to right workspace   alt-{1.</description>
+      <description>the default keybindings are:&#xA;keybind description alt-shift-e toggle enabled/disabled alt-shift-c close focused window alt-space next layout engine alt-shift-space previous layout engine alt-n reset layout alt-j focus next window alt-k focus previous window alt-m focus primary window alt-enter swap focus and primary window alt-shift-j swap focus and next window alt-shift-k swap focus and previous window alt-h shrink primary area alt-l expand primary area alt-comma increment number of primary windows alt-period decrement number of primary windows alt-t toggle tiling for focused window alt-p open action menu alt-shift-q quit workspacer alt-q restart workspacer alt-left switch to left workspace alt-right switch to right workspace alt-{1.</description>
     </item>
-    
     <item>
       <title>quick start</title>
       <link>/quickstart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/quickstart/</guid>
-      <description>Installing Download the installer or the zip file from the Releases page and install/unzip it anywhere you like.
-Alternatively, workspacer is available via these package managers:
-WinGet
-winget install workspacer Chocolatey
-choco install workspacer Scoop
-scoop bucket add extras scoop install workspacer Workspacer automatically checks for updates. However, if you are using a package manager, you should uncomment/add this line in your workspacer configuration file to disable automatic updates:
-context.Branch = Branch.</description>
+      <description>Installing Download the installer or the zip file from the Releases page and install/unzip it anywhere you like.&#xA;Alternatively, workspacer is available via these package managers:&#xA;WinGet&#xA;winget install workspacer Chocolatey&#xA;choco install workspacer Scoop&#xA;scoop bucket add extras scoop install workspacer Workspacer automatically checks for updates. However, if you are using a package manager, you should uncomment/add this line in your workspacer configuration file to disable automatic updates:&#xA;context.Branch = Branch.</description>
     </item>
-    
     <item>
       <title>screenshots</title>
       <link>/screenshots/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/screenshots/</guid>
-      <description>below are some examples of common interactions in workspacer, using the default keybindings moving focus you can use alt-j and alt-k to rotate the focused window
-moving windows in a workspace you can use alt-shift-j and alt-shift-k to rotate the window order
-moving windows between workspaces you can use alt-{1..9} to switch to a workspace, and alt-shift-{1..9} to move a window to a workspace</description>
+      <description>below are some examples of common interactions in workspacer, using the default keybindings moving focus you can use alt-j and alt-k to rotate the focused window&#xA;moving windows in a workspace you can use alt-shift-j and alt-shift-k to rotate the window order&#xA;moving windows between workspaces you can use alt-{1..9} to switch to a workspace, and alt-shift-{1..9} to move a window to a workspace</description>
     </item>
-    
   </channel>
 </rss>
